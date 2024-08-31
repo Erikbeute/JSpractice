@@ -34,10 +34,12 @@ const SPA = (() => {
 })();
 
 const Data = [
-    { name: "Image 1", url: "SPA/images/Image1.jpeg", photographer: "Photographer 1" },
-    { name: "Image 2", url: "SPA/images/Image2.jpeg", photographer: "Photographer 2" },
-    { name: "Image 3", url: "SPA/images/Image3.jpeg", photographer: "Photographer 3" }
+    { name: "Image 1", url: "images/Image1.jpeg", photographer: "Photographer 1" },
+    { name: "Image 2", url: "images/Image2.jpeg", photographer: "Photographer 2" },
+    { name: "Image 3", url: "images/Image3.jpeg", photographer: "Photographer 3" }
 ];
+
+
 
 (() => {
    SPA.init(Data);
