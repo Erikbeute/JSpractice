@@ -1,27 +1,3 @@
-// const SPA = (() => {
-   
-//     const init = (Data) => {
-//         console.log(Data); 
-//         // or print on page.. 
-//     }
-
-//     return {
-//         init: init
-//     };
-// })();
-
-
-// const Data = [
-//     { name: "Image 1", url: "image1.jpg", photographer: "Photographer 1" },
-//     { name: "Image 2", url: "image2.jpg", photographer: "Photographer 2" },
-//     { name: "Image 3", url: "image3.jpg", photographer: "Photographer 3" }
-// ];
-
-
-// (() =>{
-//    SPA.init(Data);
-// })(); 
-
 document.addEventListener('DOMContentLoaded', () => {
 
 const SPA = (() => {
@@ -46,11 +22,9 @@ const SPA = (() => {
             itemDiv.appendChild(namePara);
             itemDiv.appendChild(photographerPara);
 
-            // Append the item div to the container div
             containerDiv.appendChild(itemDiv);
         });
 
-        // Append the container div to the body
         body.appendChild(containerDiv);
     };
 
